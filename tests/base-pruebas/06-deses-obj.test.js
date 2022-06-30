@@ -6,12 +6,12 @@ describe('Pruebas en 06-deses-obj', () => {
       nombreClave: 'ABC123',
       anios: 35,
       latlng: {
-          lat: 14.1232,
-          lng: -12.3232
+        lat: 14.1232,
+        lng: -12.3232
       }
-  }
+    }
 
-    const obj = usContext({clave: 'ABC123', edad: 35});
+    const obj = usContext({ clave: 'ABC123', edad: 35 });
     expect(testObj).toStrictEqual(obj);
   })
 })
