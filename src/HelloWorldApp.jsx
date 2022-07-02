@@ -12,7 +12,7 @@ export default HelloWorldApp;
 // tener en cuenta q no hace falta la importacion 
 // de react
 
-// import React from 'react' 
+import React from 'react' 
 
 export const HelloWorldApp = () => {
   return (
