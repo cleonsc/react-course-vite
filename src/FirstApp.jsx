@@ -5,7 +5,8 @@ const FirstApp = ({ title, subTitle, firsName }) => {
 
   return (
     <>
-      <h1> {title} </h1>
+      <div data-testid="test-title"> {title} </div>
+      <p>{subTitle}</p>
       <p>{subTitle}</p>
       <p>{firsName}</p>
     </>
