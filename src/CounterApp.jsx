@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 
 const CounterApp = ({ value }) => {
-  console.log('render'); //Esto prueba que cada vez que camba el valor de counter, el componente se renderiza
+  // console.log('render'); //Esto prueba que cada vez que camba el valor de counter, el componente se renderiza
   const [counter, setCounter] = useState(value);
 
   const handleAdd = () => {
@@ -35,4 +35,4 @@ CounterApp.propTypes = {
   value: PropTypes.number.isRequired,
 }
 
-export default CounterApp
+export default CounterApp;
