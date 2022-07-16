@@ -14,9 +14,11 @@ exports[`Pruebas <CounterApp /> should match with the snapshot 1`] = `
      +1 
   </button>
   <button>
-     --1 
+     -1 
   </button>
-  <button>
+  <button
+    aria-label="btn-reset"
+  >
      Reset 
   </button>
 </div>
